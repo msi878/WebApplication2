@@ -11,9 +11,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
-                @Html.ActionLink("Nome dell'applicazione", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Test WebContact", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,9 +22,9 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     @Html.Partial("_LoginPartial")
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</li>
-                        <li class="nav-item">@Html.ActionLink("Informazioni", "About", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</li>
-                        <li class="nav-item">@Html.ActionLink("Contatto", "Contact", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</li>
+                        <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link text-light" })</li>
+                        <li class="nav-item">@Html.ActionLink("Informazioni", "About", "Home", new { area = "" }, new { @class = "nav-link text-light" })</li>
+                        <li class="nav-item">@Html.ActionLink("Contatto", "Contact", "Home", new { area = "" }, new { @class = "nav-link text-light" })</li>
                     </ul>
                 </div>
             </div>
