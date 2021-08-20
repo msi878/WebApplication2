@@ -1,0 +1,3 @@
+Enable-Migrations -EnableAutomaticMigrations
+
+Add-Migration "firstCommit"
