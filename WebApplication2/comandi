@@ -1,3 +1,5 @@
 Enable-Migrations -EnableAutomaticMigrations
 
 Add-Migration "firstCommit"
+
+CTRL + t  (ricerca file )
